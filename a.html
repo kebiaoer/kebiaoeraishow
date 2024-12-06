@@ -63,6 +63,22 @@
             border: 1px solid #ddd;
             border-radius: 5px;
         }
+
+        .process {
+            background-color: #e8f5e9;
+            padding: 20px;
+            margin-top: 30px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .failure-case {
+            margin-top: 30px;
+        }
+
+        .failure-case h2 {
+            color: #b71c1c;
+        }
     </style>
 </head>
 <body>
@@ -75,13 +91,13 @@
 
         <!-- 英文描述文本 -->
         <ul>
-            <li>There was a large, deep pit in the ground with a few dead fish</li>
+            <li>There was a large, deep pit in the ground with a few dead fish,</li>
             <li>and a man in ancient Chinese costume was standing on the shore with a fishing net in his hand.</li>
         </ul>
 
         <!-- 中文翻译 -->
         <ul>
-            <li>地面上有一个很大的深坑，坑里有几条死鱼</li>
+            <li>地面上有一个很大的深坑，坑里有几条死鱼，</li>
             <li>一个穿着古代中国服饰的人站在岸边，手里拿着渔网。</li>
         </ul>
 
@@ -96,6 +112,19 @@
             <p>回国以后，晋文公对各个大臣论功行赏，然而，雍季的封赏却在子犯之上。有人感觉很奇怪，就问晋文公： “您是不是将封赏弄错了？”晋文公说： “子犯的计策，只能让我们取得一时的优势，而雍季的建议，却能使我们受益几百年。一时的好处怎么能比得过一世的好处呢？”</p>
             <h2>成语寓意</h2>
             <p>1905年，科举制废除时，严复先生忧心忡忡，认为此举之重与秦废封建同。同年，孙中山在伦敦找他，他说，革命不是当务之急，教育才是。社会以经济为首要追求，而教育被放在最后，这正是因一时之利弃百年大计。尽管晋文公最终采纳狐偃的计策，但是他坚持的却是雍季的思想。成语告诉人们，不可因为一时之利，而毁其根基，放弃更加长远的利益。</p>
+        </div>
+
+        <!-- 制作过程 -->
+        <div class="process">
+            <h2>制作过程</h2>
+            <p>我先想到一个成语“竭泽而渔”，并思考应该给AI什么样的关键词。我一开始尝试跟AI说“地上有一个鱼塘，但是没有水，只有死鱼”，我发现AI不太能做这种复杂的处理，只要说鱼塘就一定会有水，所以后来我换了一种表述方法，直接说“地上有一个坑”，AI就能较好的生成出来。</p>
+            <p>其次，AI生成的人物有时候不像是中国人，我就加入了关键词“穿着古代中国服饰的人”，做好图片后，我将它在liblib上发布，复制图片地址给GPT，让它帮我生成代码，并且我在百度上找了成语的详细解释附在后面。</p>
+        </div>
+
+        <!-- 失败案例 -->
+        <div class="failure-case">
+            <h2>失败案例</h2>
+            <img src="https://liblibai-online.liblib.cloud/img/6e55ed0fa942432c9b2d221eb0c626e2/2682b655978d40fd15ae2fbdcf0797f294b404282fffc504ca27e2fe4ab26727.png?x-oss-process=image/resize,w_764,m_lfit/format,webp" alt="失败案例" />
         </div>
 
     </div>
